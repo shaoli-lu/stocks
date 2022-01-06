@@ -33,7 +33,7 @@ iframe {
     overflow:hidden;
     border: 3px solid green;
     width:365px; 
-    height:555px; 
+    height:820px; 
 
   }
 
@@ -98,8 +98,8 @@ iframe {
 @media only screen and (orientation: landscape) {
     iframe {
     
-        width:700px; 
-        height:645px; 
+        width:750px; 
+        height:335px; 
     
       }
 }
