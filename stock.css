@@ -122,21 +122,21 @@ video {
   iframe {
  
     width:360px; 
-    height:711px; 
+    height:661px; 
 
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  div#dash {
+ /*  div#dash {
     display: none;
-  }
+  } */
 
   iframe {
     
     width:740px; 
-    height:372px; 
+    height:302px; 
 
   }
 }
@@ -148,13 +148,29 @@ video {
   iframe {
     
     width:740px; 
-    height:850px; 
+    height:332px; 
 
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  
+  iframe {
+    
+    width:740px; 
+    height:850px; 
+
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  
+  iframe {
+    
+    width:740px; 
+    height:850px; 
+
+  }
+}
