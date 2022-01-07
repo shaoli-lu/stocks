@@ -32,8 +32,8 @@ iframe {
     
     overflow:hidden;
     border: 3px solid green;
-    width:365px; 
-    height:820px; 
+    /* width:365px; 
+    height:820px;  */
 
   }
 
@@ -96,12 +96,12 @@ iframe {
 }
 
 @media only screen and (orientation: landscape) {
-    iframe {
+   /*  iframe {
     
         width:756px; 
         height:335px; 
     
-      }
+      } */
 }
 
 /* 
@@ -118,13 +118,40 @@ video {
 } */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  iframe {
+ 
+    width:360px; 
+    height:711px; 
+
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  div#dash {
+    display: none;
+  }
+
+  iframe {
+    
+    width:740px; 
+    height:372px; 
+
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+ 
+
+  iframe {
+    
+    width:740px; 
+    height:1000px; 
+
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
